@@ -77,13 +77,13 @@ Add a print after every step
 """
 
 song= {
-    "title": "Bodies",
-    "artist": "StaticX",
+    "title": "Three Little Birds",
+    "artist": "Bob Marley",
     "duration": 5
     
 }
 print(song["title"])
-song["album"] = "Wisconsin Death Trip"
+song["album"] = "Legend"
 print(song)
 
 song["duration"] = 6
@@ -94,3 +94,26 @@ print(song)
 print(len(song))
 
 # -------- Assignment #2 --------
+
+print("-------- Assignment #2 --------")
+
+employee = {
+    "name": "Bob",
+    "position": "Developer",
+    "salary": 80000
+    }
+print(f"This is the initial dictionary: {employee}")
+print(employee["name"]) # Print just the name
+print(len(employee)) # Print length
+
+employee["department"] = "IT" # Add department key to the list
+print(f"After adding department: {employee}") # Print dictionary
+print(len(employee)) # Print length
+
+employee["salary"] = 85000 # Update salary
+print(f"After updating salary: {employee}") # Print dictionary
+print(len(employee)) # Print length
+
+employee.pop("position") # Remove position key
+print(f"After removing position: {employee}") # Print dictionary
+print(len(employee)) # Print length

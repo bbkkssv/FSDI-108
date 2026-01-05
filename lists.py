@@ -104,3 +104,20 @@ print("After removing by value:", favorite_movies)
 
 
 # -------- Assignment #2 --------
+
+favorite_cars = ["Tesla", "BMW", "Audi", "Mercedes"] # Create a list
+print("Favorite cars:", favorite_cars) #print the whole list
+
+print(favorite_cars[2]) # Access by index
+
+favorite_cars[2] = "Ford" # Replace the third car
+print(favorite_cars[2]) # Print the updated third car
+
+favorite_cars.pop(0) # Remove the first car
+print(favorite_cars) # Print the list
+
+favorite_cars.append("Chevrolet") # Add a new car at the end
+print(favorite_cars) # Print the final list
+
+favorite_cars.remove("Mercedes") # Remove Mercedes by value
+print(favorite_cars) # Print the list after removal
